@@ -1,0 +1,122 @@
+.et_pb_section_1.et_pb_section {
+    background-color: #FFFFFF!important
+}
+.et_pb_text_2 h2 {
+    font-family: 'Rubik', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2em
+}
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 input:not([type=submit]),
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 input::placeholder,
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 select,
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 textarea,
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 textarea::placeholder,
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 label,
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 input::placeholder,
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 textarea::placeholder {
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif!important
+}
+.dvppl_cf7_styler_0 .dipe-cf7-styler .wpcf7 input:not([type=submit]),
+.dvppl_cf7_styler_0 .dipe-cf7-styler .wpcf7 input[type=email],
+.dvppl_cf7_styler_0 .dipe-cf7-styler .wpcf7 input[type=text],
+.dvppl_cf7_styler_0 .dipe-cf7-styler .wpcf7 input[type=url],
+.dvppl_cf7_styler_0 .dipe-cf7-styler .wpcf7 input[type=tel],
+.dvppl_cf7_styler_0 .dipe-cf7-styler .wpcf7 input[type=date],
+.dvppl_cf7_styler_0 .dipe-cf7-styler .wpcf7 select,
+.dvppl_cf7_styler_0 .dipe-cf7-styler .wpcf7 textarea {
+    border-width: 1px!important;
+    border-color: #0779ca!important
+}
+body #page-container .et_pb_section .dvppl_cf7_styler_0 .wpcf7-form input[type=submit] {
+    color: #FFFFFF!important;
+    border-color: #0779ca;
+    font-size: 20px;
+    background-color: #0779ca!important
+}
+body #page-container .et_pb_section .dvppl_cf7_styler_0 .wpcf7-form input[type=submit]:hover {
+    padding-right: 2em;
+    padding-left: 0.7em
+}
+body #page-container .et_pb_section .dvppl_cf7_styler_0 .wpcf7-form input[type=submit],
+body #page-container .et_pb_section .dvppl_cf7_styler_0 .wpcf7-form input[type=submit]:hover {
+    padding: 0.3em 1em!important
+}
+body #page-container .et_pb_section .dvppl_cf7_styler_0 .wpcf7-form input[type=submit]:before,
+body #page-container .et_pb_section .dvppl_cf7_styler_0 .wpcf7-form input[type=submit]:after {
+    display: none!important
+}
+.dvppl_cf7_styler_0 .dipe-form-header-container {
+    background-color: ;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px
+}
+.dvppl_cf7_styler_0 .dipe-form-header-icon,
+.dvppl_cf7_styler_0 .dipe-form-header-image {
+    background-color:
+}
+.dvppl_cf7_styler_0 .dipe-form-header-icon span {
+    color:
+}
+.dvppl_cf7_styler_0 .dipe-cf7-styler {
+    background-color: ;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px
+}
+.dvppl_cf7_styler_0 .dipe-cf7-container .wpcf7-form-control:not(.wpcf7-submit) {
+    margin-top: 7px!important;
+}
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 form>p,
+.dipe-cf7 .wpcf7 form>div,
+.dipe-cf7 .wpcf7 form>label .dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 form .dp-col>p,
+.dipe-cf7 .wpcf7 form .dp-col>div,
+.dipe-cf7 .wpcf7 form .dp-col>label {
+    margin-bottom: 20px!important;
+}
+.dvppl_cf7_styler_0 .dipe-cf7-container .wpcf7 input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
+.dvppl_cf7_styler_0 .dipe-cf7-container .wpcf7 select,
+.dvppl_cf7_styler_0 .dipe-cf7-container .wpcf7 textarea {
+    padding-top: 10px!important;
+    padding-right: 15px!important;
+    padding-bottom: 10px!important;
+    padding-left: 15px!important
+}
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7 input[type=submit],
+.dvppl_cf7_styler_0 .wpcf7-form button.wpcf7-submit {
+    width: 100%!important
+}
+.dvppl_cf7_styler_0 .dipe-cf7 input:not([type=submit]),
+.dvppl_cf7_styler_0 .dipe-cf7 select,
+.dvppl_cf7_styler_0 .dipe-cf7 textarea,
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7-checkbox input[type="checkbox"]+span:before,
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7-acceptance input[type="checkbox"]+span:before,
+.dvppl_cf7_styler_0 .dipe-cf7 .wpcf7-radio input[type="radio"]:not(:checked)+span:before {
+    background-color: RGBA(255, 255, 255, 0)
+}
+.dvppl_cf7_styler_0 .wpcf7 form .wpcf7-response-output,
+.dvppl_cf7_styler_0 .wpcf7 form span.wpcf7-not-valid-tip {
+    text-align: left
+}
+.dvppl_cf7_styler_0 .wpcf7 form.sent .wpcf7-response-output {
+    background-color: !important;
+    border-color:
+}
+.dvppl_cf7_styler_0 .wpcf7 form .wpcf7-response-output {
+    color: !important;
+    background-color: !important;
+    border-color: !important
+}
+.dvppl_cf7_styler_0 span.wpcf7-not-valid-tip {
+    padding: 0px!important;
+    margin-top: 0px!important
+}
+@media only screen and (max-width: 767px) {
+    .et_pb_text_2 h2 {
+        font-size: 36px
+    }
+}
