@@ -1149,8 +1149,17 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 					
 <div class="wpcf7 no-js" id="wpcf7-f7-p32-o1" lang="es-ES" dir="ltr">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-
-<form id="myForm" action="https://formsubmit.co/cisneros.juan7711@gmail.com" method="POST">
+<style>
+	.success-message {
+		color: green;
+		display: none; /* Ocultar inicialmente */
+	}
+	.error-message {
+		color: red;
+		display: none; /* Ocultar inicialmente */
+	}
+</style>
+<form id="myForm" action="" method="POST">
 	<div class="form-group">
 		<div class="form-row">
 			<div class="col"><p> 
@@ -1158,12 +1167,6 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 			
 				<input type="text" name="name" class="form-control" required>
 			</label> </p>
-			</div>
-			<div class="col">
-				<p> 
-				<label ><p>Tu Numero</p>
-					<input type="tel" id="telefono" name="telefono" class="form-control"required>
-				</label></p>
 			</div>
 			<div class="col"> <p> 
 				<label ><p>Tu Correo</p>
@@ -1178,9 +1181,62 @@ body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc 
 	</label></p>
 	</div>
 	<button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
-	<input type="hidden" name="_next" value="https://juan-cisne.github.io/proyecto/">
+	<input type="hidden" name="_next" value="https://juan-cisne.github.io/prueba/">
             <input type="hidden" name="_captcha" value="false">
 </form>
+<div id="successMessage" class="success-message">Gracias por llenar este formulario.</div>
+			<div id="errorMessage" class="error-message">No se pudo enviar el formulario. Intente nuevamente.</div>
+			<script>
+				document.getElementById('myForm').addEventListener('submit', function(event) {
+					event.preventDefault(); // Evitar el envío del formulario por defecto
+		
+					const form = event.target;
+					const formData = new FormData(form);
+		
+					// Enviar el formulario usando fetch
+					fetch(form.action, {
+						method: form.method,
+						body: formData,
+						headers: {
+							'Accept': 'application/json'
+						}
+					})
+					.then(response => {
+						if (response.ok) {
+							// Mostrar mensaje de éxito
+							document.getElementById('successMessage').style.display = 'block';
+							document.getElementById('errorMessage').style.display = 'none';
+							
+							// Ocultar el mensaje después de 5 segundos
+							setTimeout(() => {
+								document.getElementById('successMessage').style.display = 'none';
+							}, 5000);
+							
+							form.reset(); // Reiniciar el formulario
+						} else {
+							// Mostrar mensaje de error
+							document.getElementById('errorMessage').style.display = 'block';
+							document.getElementById('successMessage').style.display = 'none';
+							
+							// Ocultar el mensaje después de 3 segundos
+							setTimeout(() => {
+								document.getElementById('errorMessage').style.display = 'none';
+							}, 3000);
+						}
+					})
+					.catch(error => {
+						// Mostrar mensaje de error en caso de fallo
+						document.getElementById('errorMessage').style.display = 'block';
+						document.getElementById('successMessage').style.display = 'none';
+						
+						// Ocultar el mensaje después de 3 segundos
+						setTimeout(() => {
+							document.getElementById('errorMessage').style.display = 'none';
+						}, 3000);
+					});
+				});
+			</script>
+
 </div>
 
 				</div>
